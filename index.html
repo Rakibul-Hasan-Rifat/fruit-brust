@@ -69,17 +69,19 @@
       </div>
     </nav>
     <!-- banner section -->
-    <section class="my-20">
+    <section class="my-10 lg:my-20 relative">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./images/banner1.png" class="w-full" />
           <div class='banner_image_dark_layer'></div>
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between items-center -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a>
-            <div class="flex flex-col items-center">
-              <h1 class="text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
-              <p class="my-10 text-[#fff]">We supply highly quality organic products</p>
-              <button class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop Now</button>
+            <div class="flex flex-col items-center text-center py-5 lg:py-0">
+              <h1 class="text-3xl lg:text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
+              <p class="my-3 lg:my-10 text-[#fff]">We supply highly quality organic products</p>
+              <button
+                class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#fff]">Shop
+                Now</button>
             </div>
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
@@ -87,12 +89,14 @@
         <div id="slide2" class="carousel-item relative w-full">
           <img src="./images/banner2.png" class="w-full" />
           <div class="banner_image_dark_layer"></div>
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between items-center -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
-            <div class="flex flex-col items-center">
-              <h1 class="text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
-              <p class="my-10 text-[#fff]">We supply highly quality organic products</p>
-              <button class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop Now</button>
+            <div class="flex flex-col items-center text-center">
+              <h1 class="text-3xl lg:text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
+              <p class="my-3 lg:my-10 text-[#fff]">We supply highly quality organic products</p>
+              <button
+                class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop
+                Now</button>
             </div>
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
@@ -100,39 +104,66 @@
         <div id="slide3" class="carousel-item relative w-full">
           <img src="./images/banner3.png" class="w-full" />
           <div class="banner_image_dark_layer"></div>
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between items-center -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
-            <div class="flex flex-col items-center">
-              <h1 class="text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
-              <p class="my-10 text-[#fff]">We supply highly quality organic products</p>
-              <button class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop Now</button>
+            <div class="flex flex-col items-center text-center">
+              <h1 class="text-3xl lg:text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
+              <p class="my-3 lg:my-10 text-[#fff]">We supply highly quality organic products</p>
+              <button
+                class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop
+                Now</button>
             </div>
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
           <img src="./images/banner4.png" class="w-full" />
-          <div class="banner_image_dark_layer"></div>   
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="banner_image_dark_layer"></div>
+          <div class="absolute flex justify-between items-center -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a>
-            <div class="flex flex-col items-center">
-              <h1 class="text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
-              <p class="my-10 text-[#fff]">We supply highly quality organic products</p>
-              <button class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop Now</button>
+            <div class="flex flex-col items-center text-center">
+              <h1 class="text-3xl lg:text-6xl text-[#fff] font-bold">Exotic tastes at your doorstep</h1>
+              <p class="my-3 lg:my-10 text-[#fff]">We supply highly quality organic products</p>
+              <button
+                class="btn bg-main-color text-white shadow-lg hover:text-main-color hover:border-main-color hover:bg-[#ffffff]">Shop
+                Now</button>
             </div>
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
       </div>
+      <div
+        class="hidden lg:flex justify-evenly gap-3 w-4/5 absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2 p-6 shadow-xl rounded-xl bg-[#fff] text-center">
+        <div>
+          <img src="./images/fruit1.png" alt="">
+          <p>Grape</p>
+        </div>
+        <div>
+          <img src="./images/fruit2.png" alt="">
+          <p>Orange</p>
+        </div>
+        <div>
+          <img src="./images/fruit3.png" alt="">
+          <p>Mango</p>
+        </div>
+        <div>
+          <img src="./images/fruit4.png" alt="">
+          <p>Strawberry</p>
+        </div>
+        <div>
+          <img src="./images/fruit5.png" alt="">
+          <p>Pomegranate</p>
+        </div>
+      </div>
     </section>
   </header>
 
-  <main class="container mx-auto">
+  <main class="container mx-auto lg:mt-40 px-5 lg:p-0">
     <!-- deal of the day section -->
     <section>
       <div class="flex flex-col lg:flex-row items-center mb-10">
         <div class="w-full lg:w-1/2 my-5 lg:my-0 text-center lg:text-left text-gray-dark">
-          <h3 class="text-5xl font-semibold mb-5">Deal of the day</h3>
+          <h3 class="text-4xl lg:text-5xl font-semibold mb-5">Deal of the day</h3>
           <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
             literature from 45 BC, making it over 2000 years old.</p>
         </div>
@@ -158,7 +189,7 @@
         <div class="flex flex-col items-center p-8 border rounded-lg">
           <img src="./images/apple.png" alt="">
           <h4 class="border-b my-5 px-4 py-3 text-2xl font-semibold">12.90$ - 18.85$</h4>
-          <p class="font-semibold text-green">Apple</p>
+          <p class="font-semibold">Apple</p>
           <div class="flex my-4">
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/rate-star.png" alt="">
@@ -166,12 +197,36 @@
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/unrate-start.png" alt="">
           </div>
-          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color">Details</button>
+          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color"
+            onclick="my_modal_1.showModal()">Details</button>
+          <dialog id="my_modal_1" class="modal">
+            <div class="modal-box flex flex-col items-center text-center">
+              <img src="./images/apple.png" alt="">
+              <p class="my-4 font-semibold">Apple</p>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex my-4">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/unrate-start.png" alt="">
+              </div>
+              <div class="modal-action">
+                <form method="dialog">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                  <button
+                    class="btn bg-main-color text-white hover:border-main-color hover:text-main-color hover:bg-white">Buy
+                    Now</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
         <div class="flex flex-col items-center p-8 border rounded-lg">
           <img src="./images/orange.png" alt="">
           <h4 class="border-b my-5 px-4 py-3 text-2xl font-semibold">12.90$ - 18.85$</h4>
-          <p class="font-semibold text-green">Orange</p>
+          <p class="font-semibold">Orange</p>
           <div class="flex my-4">
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/rate-star.png" alt="">
@@ -179,12 +234,36 @@
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/unrate-start.png" alt="">
           </div>
-          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color">Details</button>
+          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color"
+            onclick="my_modal_2.showModal()">Details</button>
+          <dialog id="my_modal_2" class="modal">
+            <div class="modal-box flex flex-col items-center text-center">
+              <img src="./images/orange.png" alt="">
+              <p class="my-4 font-semibold">Orange</p>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex my-4">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/unrate-start.png" alt="">
+              </div>
+              <div class="modal-action">
+                <form method="dialog">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                  <button
+                    class="btn bg-main-color text-white hover:border-main-color hover:text-main-color hover:bg-white">Buy
+                    Now</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
         <div class="flex flex-col items-center p-8 border rounded-lg">
           <img src="./images/red dragon.png" alt="">
           <h4 class="border-b my-5 px-4 py-3 text-2xl font-semibold">12.90$ - 18.85$</h4>
-          <p class="font-semibold text-green">Red dragon</p>
+          <p class="font-semibold">Red dragon</p>
           <div class="flex my-4">
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/rate-star.png" alt="">
@@ -192,12 +271,36 @@
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/unrate-start.png" alt="">
           </div>
-          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color">Details</button>
+          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color"
+            onclick="my_modal_3.showModal()">Details</button>
+          <dialog id="my_modal_3" class="modal">
+            <div class="modal-box flex flex-col items-center text-center">
+              <img src="./images/red dragon.png" alt="">
+              <p class="my-4 font-semibold">Red dragon</p>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex my-4">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/unrate-start.png" alt="">
+              </div>
+              <div class="modal-action">
+                <form method="dialog">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                  <button
+                    class="btn bg-main-color text-white hover:border-main-color hover:text-main-color hover:bg-white">Buy
+                    Now</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
         <div class="flex flex-col items-center p-8 border rounded-lg">
           <img src="./images/banana.png" alt="">
           <h4 class="border-b my-5 px-4 py-3 text-2xl font-semibold">12.90$ - 18.85$</h4>
-          <p class="font-semibold text-green">Banana</p>
+          <p class="font-semibold">Banana</p>
           <div class="flex my-4">
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/rate-star.png" alt="">
@@ -205,7 +308,31 @@
             <img src="./images/icons/rate-star.png" alt="">
             <img src="./images/icons/unrate-start.png" alt="">
           </div>
-          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color">Details</button>
+          <button class="btn text-main-color border-main-color hover:text-white hover:bg-main-color"
+            onclick="my_modal_4.showModal()">Details</button>
+          <dialog id="my_modal_4" class="modal">
+            <div class="modal-box flex flex-col items-center text-center">
+              <img src="./images/banana.png" alt="">
+              <p class="my-4 font-semibold">Banana</p>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex my-4">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/rate-star.png" alt="">
+                <img src="./images/icons/unrate-start.png" alt="">
+              </div>
+              <div class="modal-action">
+                <form method="dialog">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                  <button
+                    class="btn bg-main-color text-white hover:border-main-color hover:text-main-color hover:bg-white">Buy
+                    Now</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
       </div>
     </section>
@@ -285,10 +412,75 @@
         </div>
       </div>
     </section>
+    <!-- why choose section -->
+    <section>
+      <h3 class="text-4xl lg:text-5xl font-semibold text-center">Why Choose Us</h3>
+      <p class="w-full lg:w-1/2 mx-auto my-6 text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+        from 45 BC, making it over 2000 years old.</p>
+      <div class="flex gap-5 items-center flex-col lg:flex-row">
+        <div class="text-center lg:text-left order-2 lg:order-1">
+          <div class="flex gap-3 flex-col lg:flex-row items-center lg:items-start">
+            <div><img src="./images/icons/team.png" alt=""></div>
+            <div>
+              <h4 class="text-2xl font-semibold">Dedicated Team</h4>
+              <div class="flex justify-center lg:justify-start"><hr class="w-1/4 my-2"></div>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex gap-3 flex-col lg:flex-row items-center lg:items-start my-6">
+            <div><img src="./images/icons/fresh.png" alt=""></div>
+            <div>
+              <h4 class="text-2xl font-semibold">Fresh is Best</h4>
+              <div class="flex justify-center lg:justify-start"><hr class="w-1/4 my-2"></div>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex gap-3 flex-col lg:flex-row items-center lg:items-start">
+            <div><img src="./images/icons/gift.png" alt=""></div>
+            <div>
+              <h4 class="text-2xl font-semibold">Gift Certificates</h4>
+              <div class="flex justify-center lg:justify-start"><hr class="w-1/4 my-2"></div>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 order-1 lg:order-2">
+          <img src="./images/whychoose.png" class="w-full" alt="">
+        </div>
+        <div class="order-3 lg:order-3">
+          <div class="text-center lg:text-right">
+            <div class="flex gap-3 flex-col-reverse lg:flex-row items-center lg:items-start">
+              <div>
+                <h4 class="text-2xl font-semibold">Integrated Suppliar</h4>
+                <div class="flex justify-center lg:justify-end"><hr class="w-1/4 my-2"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div><img src="./images/icons/integration.png" alt=""></div>
+            </div>
+            <div class="flex gap-3 flex-col-reverse lg:flex-row items-center lg:items-start my-6">
+              <div>
+                <h4 class="text-2xl font-semibold">Sustainable Practice</h4>
+                <div class="flex justify-center lg:justify-end"><hr class="w-1/4 my-2"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div><img src="./images/icons/sustainability.png" alt=""></div>
+            </div>
+            <div class="flex gap-3 flex-col-reverse lg:flex-row items-center lg:items-start">
+              <div>
+                <h4 class="text-2xl font-semibold">The Benefits Only</h4>
+                <div class="flex justify-center lg:justify-end"><hr class="w-1/4 my-2"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div><img src="./images/icons/benefig.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- footer section -->
-  <footer class="footer footer-center container mx-auto p-10 bg-[#121212] text-base-content rounded-xl text-white">
+  <footer class="footer footer-center container mx-auto mt-16 p-10 bg-[#121212] text-base-content rounded-xl text-white">
     <div>
       <a class="btn btn-ghost normal-case text-xl">
         <img class="w-12" src="./images/logo.png" alt="">

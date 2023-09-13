@@ -1,11 +1,13 @@
+/* overlay background to see white colored texts on my team section background images */
 #my_team_section {
     background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./images/team.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-color: red; */
 }
 
+
+/* overlay background to see white colored texts on banner images */
 .banner_image_dark_layer {
     position: absolute;
     width: 100%;
